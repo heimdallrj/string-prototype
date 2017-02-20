@@ -1,0 +1,23 @@
+{
+  "name": "string-prototype",
+  "version": "0.0.1",
+  "description": "A modified JS `String.prototype` Object",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/_mocha tests/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkholic/string-prototype.git"
+  },
+  "author": "thinkholic <mailtokasun@gmail.com> (http://www.thinkholic.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkholic/string-prototype/issues"
+  },
+  "homepage": "https://github.com/thinkholic/string-prototype#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
