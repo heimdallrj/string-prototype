@@ -1,0 +1,17 @@
+{
+  "name": "string-prototype",
+  "description": "A modified JS `String.prototype` Object",
+  "main": "./lib/index.js",
+  "authors": [
+    "thinkholic <mailtokasun@gmail.com> (http://www.thinkholic.com)"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/thinkholic/string-prototype",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
