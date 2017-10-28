@@ -10,6 +10,8 @@ npm install string-prototype
 
 ## Usage
 
+### String.allReplace()
+
 ```
 import 'string-prototype';
 
@@ -21,4 +23,15 @@ var list = {
 };
 var newStr = str.allReplace(list);
 console.log(newStr); // Lorem REPLACED-ipsum dolor sit REPLACED-amet, consectetur adipiscing elit.
+```
+
+### String.toTitleCase()
+
+```
+import 'string-prototype';
+
+var str = 'Lorem ipsum dolor';
+var result = str.toTitleCase();
+console.log(result); // Lorem Ipsum Dolor
+
 ```
